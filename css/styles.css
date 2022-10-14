@@ -1,0 +1,306 @@
+Criterio de aceptación B1
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+} 
+
+:root{
+    /* Color principal - para logo y cambios de estados de enlaces y botones */
+    --brand-color: #2196f3;
+    /*Color principal - para textos y cambio de estado en .button-one*/
+    --main-text-color: #212121;
+    /*Color secundario - para h1 y texto de .address-two y .button-one*/
+    --secondary-text-color-one: #ffffff;
+    /*Color secundario - para textos de .address-one, .corporate-value-definition y .service-type*/
+    --secondary-text-color-two: #757575;
+    /*Color secundario - para backgrounds de footer y #banner*/
+    --secondary-background-color: #2f303A;
+    /*Color secundario- para texto de .button-two y background de #our-team*/
+    --secondary-color: #f5f4fa;
+
+}
+
+/* ETIQUETAS */
+body{
+    font-family: 'Roboto', 'Times New Roman', 'sans-serif';
+    color: var(--main-text-color);
+}
+
+button{
+    border:0px;
+    padding-top: 6px;
+    padding-right: 24px;
+    padding-bottom:6px;
+    padding-left: 24px;
+    margin:8px;
+    cursor:pointer;
+}
+
+button:hover,
+button:focus{
+    color:var(--brand-color)
+}
+
+footer{
+    background: var(--secondary-background-color);
+    width:1600px;
+    height:252px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 60px;
+    padding-left: 215px;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 1600px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 215px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--secondary-text-color-one); 
+    
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-bottom: 30px;
+    padding-left: 452px;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 1.17; 
+}
+
+/* CLASES */
+.address-one{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    color:var(--secondary-text-color-two);
+    text-decoration: none;
+    list-style: none;
+    padding-top: 32px;
+    padding-right: 50px;
+    padding-bottom: 32px;
+    justify-content: flex-end;
+}
+
+.address-one:last-child{
+    padding-right: 219px;
+}
+
+.address-one:hover,
+.address-one:focus{
+    color: var(--brand-color);
+}
+
+.address-two{
+    font-style:normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--secondary-text-color-one);
+    text-decoration: none;
+    }
+
+.address-two:focus,
+.address-two:hover{
+    color: var(--brand-color);
+}
+
+.banner{
+    background:var(--secondary-background-color);
+    width: 1600px;
+}
+
+.button-one{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    color:var(--secondary-text-color-one); 
+    background: var(--brand-color);  
+
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+
+    margin-top:40px;
+    margin-right:669px;
+    margin-bottom: 200px;
+    margin-left:670px;
+}
+
+.button-one:hover,
+.button-one:focus{
+    color: var(--main-text-color);
+}
+    
+.button-two{
+        font-weight: 500;
+        line-height: 1.62;
+        color:var(--secondary-color);
+        list-style: none;
+        display:flex;
+        justify-content:center;
+}
+
+.characteristic{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+}
+
+.characteristic-box{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width:1600px;
+    padding-top: 55px;
+    box-sizing: border-box; 
+    margin:30px; 
+}
+
+.characteristic-box:first-child{
+    padding-left: 215px;
+}
+
+.container{
+    width:1200px;
+}
+
+.corporate-value{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.corporate-value-definition{
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--secondary-text-color-two); 
+}
+
+/*.corporate-value-definition:nth-child(2){
+    padding-right: 30px;
+    padding-bottom: 94px;
+    padding-left: 30px;
+}*/
+
+.images-box{
+    display: flex;    
+    justify-content: space-evenly;
+    width:1600px;
+    margin:30px;
+}
+
+.images-box:nth-child(2){
+    padding-top: 55.05px;
+    margin-right: 23.42px;
+    padding-bottom:94px;
+    margin-left:30.26px ;
+}
+
+.job-title{
+    line-height:1.17
+}
+
+.logo{
+    font-family: 'Raleway', 'Times New Roman', 'sans-serif';
+    font-size: 26px;
+    line-height: 1.17;
+    color: var(--brand-color);
+    text-decoration: none;
+}
+
+.navigation-menu{
+    list-style: none;
+    display: inline-flex;
+}
+
+.navigation-menu-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    list-style: none;
+    text-decoration: none;   
+    color: var(--main-text-color);
+    padding-top: 32px;
+    padding-left:50px;
+    padding-bottom: 32px;
+}
+
+.navigation-menu-item:hover,
+.navigation-menu-item:focus{
+    color: var(--brand-color);}
+
+.our-team{
+        background: var(--secondary-color);
+        width:1600px;
+    }
+
+.project-name{
+    font-size: 18px;
+    line-height:2;
+}
+
+.services{
+    display:inline-block;
+    width:30%;
+    border-bottom:1px;
+}
+
+.services-catalog{
+    width:1600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:215px; 
+}
+
+.service-type{
+    line-height:1.87;
+    color:var(--secondary-text-color-two);
+}
+
+.team-card{
+    display:inline-block;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.team-card-collection{
+    display:flex;
+    justify-content: center;
+    width: 1600px;
+    box-sizing: border-box;
+    padding-top:50px;
+    padding-bottom:94px;
+}
+
+.team-member{
+    font-weight:500;
+    line-height:1.17;
+}
+
+/* ID */
+#images-title{
+    padding-left:619.43px;
+}
+
+#our-team-title{
+    padding-top: 94px;
+    padding-right: 668px;
+    padding-left: 669px;
+}
