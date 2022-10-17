@@ -279,11 +279,24 @@ h2{
     border-bottom: 1px solid #EEEEEE;
 }
 
+.social-networks{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color:var(--secondary-text-color-one)
+}
+
 .team-card{
     display:inline-block;
     width: 20%;
     box-sizing: border-box; 
 }
+
+/*.team-card-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
 
 .team-card-collection{
     display:flex;
