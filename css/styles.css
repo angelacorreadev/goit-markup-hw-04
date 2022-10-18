@@ -210,10 +210,10 @@ h2{
     fill: currentColor;
   }
   
- .svg:hover,
- .svg:focus,
- .svg:active{
-    color:var(--brand-color);
+ .icon:hover,
+ .icon:focus,
+ .icon:active{
+    fill:var(--brand-color);
  } 
 
 .images-box{
