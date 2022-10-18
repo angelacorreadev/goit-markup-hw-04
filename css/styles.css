@@ -200,7 +200,7 @@ h2{
     color:var(--secondary-text-color-two); 
 }
 
-/*Código copiado de la carpeta comprimidad de Icomoons*/
+/*Código copiado de la carpeta comprimidad de Icomoons
 .icon {
     display: inline-block;
     width: 1em;
@@ -208,7 +208,7 @@ h2{
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-  }
+  }*/
   
  .icon:hover,
  .icon:focus,
