@@ -126,7 +126,7 @@ h2{
 }
 
 .banner{
-    background:var(--secondary-background-color);
+    background: rgba(47, 48, 58, 0.4);
     width: 1600px;
 }
 
@@ -210,14 +210,11 @@ h2{
     fill: currentColor;
   }
   
- .icon:hover,
- .icon:focus{
+ .svg:hover,
+ .svg:focus,
+ .svg:active{
     color:var(--brand-color);
  } 
-
- .icon:active{
-    color:var(--brand-color)
- }
 
 .images-box{
     display: flex;    
