@@ -265,11 +265,11 @@ h2{
     line-height:2;
 }
 
-/*.regular-customers{
+.regular-customers{
     display: flex;
     justify-content: center;
     width: 1600px;
-}*/
+}
 
 .client-list{
     display: inline;
