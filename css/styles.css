@@ -211,10 +211,13 @@ h2{
   }
   
  .icon:hover,
- .icon:focus,
- .icon:active{
+ .icon:focus{
     color:var(--brand-color);
  } 
+
+ .icon:active{
+    color:var(--brand-color)
+ }
 
 .images-box{
     display: flex;    
