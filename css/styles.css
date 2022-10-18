@@ -177,7 +177,7 @@ h2{
     justify-content: center;
     width:1600px;
     padding-top: 55px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .characteristic-box:first-child{
@@ -266,8 +266,6 @@ h2{
 }
 
 .regular-customers{
-    display: flex;
-    justify-content: center;
     width: 1600px;
 }
 
@@ -337,6 +335,10 @@ h2{
 #images-title{
     padding-bottom: 55px;
     padding-left:619.43px;
+}
+
+#regular-customers-title{
+    padding-left: 669px;
 }
 
 #our-team-title{
