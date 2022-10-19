@@ -266,9 +266,7 @@ h2{
 }
 
 .regular-customers{
-    display:flex;
     width: 1600px;
-    justify-content: center;
 }
 
 .section-padding{
