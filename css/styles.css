@@ -272,12 +272,6 @@ h2{
 
 .regular-customers{
     width: 1600px;
-    display: flex;
-    justify-content: center;
-}
-
-.regular-customer-logo{
-    display:block;
 }
 
 .section-padding{
