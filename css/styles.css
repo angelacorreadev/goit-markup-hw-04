@@ -45,18 +45,12 @@ button:focus{
 footer{
     background: var(--secondary-background-color);
     width:1600px;
-    /*height:252px;*/
-
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: flex-start;
     padding-top: 60px;
     padding-left: 215px;
     box-sizing: border-box;
-}
-
-.footer:last-child{
-    justify-content: center;
 }
 
 header{
@@ -129,7 +123,7 @@ h2{
 
 .banner{
     background: 
-    radial-gradient( rgba(47, 48, 58, 1), rgba(47, 48, 58, 0.4)),
+    radial-gradient( rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.5)),
     url(../images/team-work-banner.jpg);
     width: 1600px;
     }
@@ -205,19 +199,13 @@ h2{
     color:var(--secondary-text-color-two); 
 }
 
-/*Código copiado de la carpeta comprimidad de Icomoons
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-  }*/
-  
- .icon:hover,
- .icon:focus,
- .icon:active{
+.footer-items{
+    list-style: none;
+}
+
+.icon:hover,
+.icon:focus,
+.icon:active{
     fill:var(--brand-color);
  } 
 
@@ -313,7 +301,8 @@ h2{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
-    color:var(--secondary-text-color-one)
+    color:var(--secondary-text-color-one);
+    list-style:none;
 }
 
 .team-card{
