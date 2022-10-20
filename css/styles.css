@@ -2,6 +2,7 @@
 *::before
 *::after{
     box-sizing: border-box;
+    margin-right: 0px;
 } 
 
 :root{
@@ -123,7 +124,7 @@ h2{
 
 .banner{
     background: 
-    radial-gradient( rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.5)),
+    radial-gradient( rgba(0, 0, 0, 0.5), rgba(47, 48, 58, 0.4)),
     url(../images/team-work-banner.jpg);
     width: 1600px;
     }
