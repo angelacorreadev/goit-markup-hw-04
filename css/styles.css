@@ -272,17 +272,15 @@ h2{
 
 .regular-customers{
     width: 1600px;
-    display: flex;
-    justify-content: center;
 }
 
-.regular-customers.customer-logo{
+.regular-customers-logo{
+    display:inline-flex;
     justify-content: center;
+    padding-left: 215px;
+    list-style: none;
 }
 
-.customer-logo{
-    display: inline-block;
-}
 .section-padding{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -346,7 +344,9 @@ h2{
 }
 
 #regular-customers-title{
-    padding-left: 669px;
+    padding-left: 640px;
+    font-size: 36px;
+    line-height: 1.17;
 }
 
 #our-team-title{
