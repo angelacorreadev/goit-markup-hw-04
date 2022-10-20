@@ -272,7 +272,7 @@ h2{
 
 .regular-customers{
     width: 1600px;
-    display: contents;
+    display: flex;
     justify-content: center;
 }
 
