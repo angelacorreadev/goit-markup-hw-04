@@ -276,6 +276,10 @@ h2{
     justify-content: center;
 }
 
+.regular-customers.customer-logo{
+    justify-content: center;
+}
+
 .customer-logo{
     display: inline-block;
 }
